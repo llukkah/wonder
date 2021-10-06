@@ -1,7 +1,7 @@
 ---
-path: "/jan-2021"
-date: "2021-01-01"
-title: "Santa Fe, NM"
+path: "/post-three"
+date: "01 MAR 2022"
+title: "Santa Fe, New Mexico"
 author: "Llukkah Rey"
 ---
 

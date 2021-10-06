@@ -1,19 +1,14 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
-// import Nav from "../components/nav.js"
-import Seo from "../components/seo"
-// import About from "../pages/about"
-// import Photos from "../pages/photos"
+import React from "react"
+import Link from "gatsby-link"
+import Menu from "../components/menu"
+import { graphql } from "gatsby"
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    {/* <Nav /> */}
-    <h1>Index</h1>
-  </Layout>
+  <div>
+    <h1>Welcome to my website</h1>
+    <p>This is a sample site for the Gatsby crash course</p>
+    <Menu />
+  </div>
 )
 
 export default IndexPage
